@@ -8,5 +8,5 @@ export const updateProductController = async (req: Request, res: Response) => {
 
   const updatedProduct = await updateProductService(productId, body);
 
-  return res.status(201).json(updatedProduct);
+  return res.status(200).json(updatedProduct);
 };
