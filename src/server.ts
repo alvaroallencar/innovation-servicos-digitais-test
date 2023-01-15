@@ -1,5 +1,5 @@
 import { app } from "./app";
-import { AppDataSource } from "./data-source";
+import { AppDataSource } from "./dataSource";
 import "dotenv/config";
 
 const PORT = process.env.PORT || 3333;
