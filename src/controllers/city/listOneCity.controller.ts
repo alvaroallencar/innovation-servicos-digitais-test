@@ -3,6 +3,7 @@ import { listOneCityService } from "../../services/city/listOneCity.service";
 
 export const listOneCityController = async (req: Request, res: Response) => {
   const cityName = req.params.name;
+  console.log(cityName);
 
   const city = await listOneCityService(cityName);
 

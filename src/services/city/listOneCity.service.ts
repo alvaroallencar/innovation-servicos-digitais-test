@@ -4,7 +4,11 @@ import { toLowerCaseAndRemoveSpecialChars } from "../../utils/toLowerCaseAndRemo
 import { registerCityService } from "./registerCity.service";
 
 export const listOneCityService = async (cityName: string) => {
-  const cityNameNormalized = toLowerCaseAndRemoveSpecialChars(cityName);
+  const cityNameNormalized = toLowerCaseAndRemoveSpecialChars(
+    cityName.replace(/-/g, " ")
+  );
+
+  console.log(cityNameNormalized);
 
   const cityRepository = AppDataSource.getRepository(City);
 
