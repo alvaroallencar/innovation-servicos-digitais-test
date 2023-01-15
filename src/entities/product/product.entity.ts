@@ -18,7 +18,7 @@ export class Product {
   @Column({ length: 120 })
   category: string;
 
-  @Column()
+  @Column({ default: "ACTIVE" })
   status: string;
 
   @Column({ type: "int" })
