@@ -3,4 +3,4 @@ import { listOneCityController } from "../../controllers/city/listOneCity.contro
 
 export const cityRoutes = Router();
 
-cityRoutes.get("/", listOneCityController);
+cityRoutes.get("/:name", listOneCityController);
