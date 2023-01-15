@@ -11,7 +11,6 @@ export const createProductService = async (data: IProduct) => {
     name,
     category,
     quantity,
-    status: "ACTIVE",
   });
 
   await productRepository.save(newProduct);
