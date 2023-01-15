@@ -8,11 +8,11 @@ const ibgeApi = axios.create({
 
 export const getRioDeJaneiroCities = async () => {
   try {
-    const citiesList: IIbgeCity[] = await ibgeApi.get(
+    const citiesList = await ibgeApi.get<IIbgeCity[]>(
       "/localidades/estados/33/municipios"
     );
 
-    return citiesList;
+    return citiesList.data;
   } catch (err) {
     console.log(err);
   }
