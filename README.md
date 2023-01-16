@@ -14,7 +14,7 @@ Com esta aplicação é possível cadastrar, listar, editar e deletar produtos (
 
 - A API tem um total de 6 endpoints.
 
-- O URL base da API é https://
+- O URL base da API é https://innovation-test.onrender.com
 
 - Nenhuma rota precisa de autenticação.
 
