@@ -1,5 +1,5 @@
 <h1 align="center">
-  iBudget API
+  Innovation
 </h1>
 
 <p align = "center">
