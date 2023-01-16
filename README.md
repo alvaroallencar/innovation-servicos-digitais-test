@@ -161,7 +161,7 @@ Não precisa de body.
         "status": "INACTIVE",
         "created_at": "2023-01-15T20:04:00.260Z",
         "updated_at": "2023-01-15T07:36:50.768Z",
-        "deleted_at": "2023-01-15T07:36:50.768Z
+        "deleted_at": "2023-01-15T07:36:50.768Z"
     }
 ]
 ```
