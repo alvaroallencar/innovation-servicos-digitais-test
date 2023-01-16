@@ -18,6 +18,8 @@ Com esta aplicação é possível cadastrar, listar, editar e deletar produtos (
 
 - Nenhuma rota precisa de autenticação.
 
+- Na pasta raíz do repositório há um arquivo chamado workspace-insomnia.json. ele pode ser usado pra fazer testes na aplicação utilizando o Insomnia.
+
 <h2 align ='center'> Cadastro de produto </h2>
 
 <p>
