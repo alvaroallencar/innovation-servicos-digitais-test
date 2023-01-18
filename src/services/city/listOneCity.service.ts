@@ -8,8 +8,6 @@ export const listOneCityService = async (cityName: string) => {
     cityName.replace(/-/g, " ")
   );
 
-  console.log(cityNameNormalized);
-
   const cityRepository = AppDataSource.getRepository(City);
 
   const cities = await cityRepository.find({});
